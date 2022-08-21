@@ -1,0 +1,66 @@
+@media only screen and (max-width: 485px) {
+  .mystyle {
+    opacity: 0 !important;
+  }
+  .body_cake {
+    width: 200px;
+    height: 50px;
+  }
+  .body_cake::before {
+    height: 50px;
+    width: 200px;
+    background-color: #95a5d2;
+  }
+  .body_cake::after {
+    background-color: #c5d0ef;
+    height: 50px;
+    width: 200px;
+  }
+  .text_cake {
+    z-index: 4;
+    font-size: 1rem;
+    top: 0;
+  }
+  .candle_cake {
+    height: 200px;
+  }
+  .candle_cake-number {
+    transform: translate(0px, 10px);
+    font-size: 6rem;
+  }
+  .candle_cake-number:nth-child(1) div {
+    width: 30px;
+    height: 60px;
+    top: -10px;
+    transform: translateX(-2px);
+    transition: all 1.5s ease-in;
+  }
+  .candle_cake-number:nth-child(2) div {
+    width: 30px;
+    height: 60px;
+    position: absolute;
+    top: -10px;
+    left: 3px;
+    transform: none;
+  }
+
+  #addtask {
+    top: calc(50% + 70px);
+    padding: 10px 10px;
+    z-index: 100;
+  }
+  body .image:nth-child(1) {
+    position: absolute;
+    width: 50px;
+    z-index: 20;
+    top: 30%;
+    left: 30%;
+  }
+  body .image:nth-child(2) {
+    position: absolute;
+    width: 50px;
+    z-index: 20;
+    top: 0%;
+    right: 30%;
+  }
+}

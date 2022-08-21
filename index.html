@@ -23,27 +23,35 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <style>
-        .mystyle{
+        .mystyle {
             opacity: 0 !important;
         }
     </style>
 </head>
 
 <body>
+    <audio autoplay loop>
+        
+        <source src="./assets/img/happybirthday.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
     <div class="body_cake">
         <div class="text_cake">
             <span>Happy Brith Day</span>
-            <span>To You</span>
+            <span>Ngô Thị Thanh Thảo</span>
         </div>
     </div>
-    
+    <div>
+        <img class="image" src="./assets/img/doremon.png" alt="">
+        <img class="image" src="./assets/img/doremon_22.png" alt="">
+    </div>
     <div class="candle_cake">
-        <div  class="candle_cake-number">1
+        <div class="candle_cake-number">1
             <div id="candle_fire_1"></div>
         </div>
-        <div  class="candle_cake-number">8
+        <div class="candle_cake-number">8
             <div id="candle_fire_2"></div>
-        </div> 
+        </div>
     </div>
 
     <button id="addtask" onclick="hideFire()">
