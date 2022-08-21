@@ -67,7 +67,7 @@ body {
   display: block;
   transform: translateX(10px);
   opacity: 1;
-  transition: all 1.5s ease-in;
+  transition: all 1s ease-in;
   text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
     0px -4px 10px rgba(255, 255, 255, 0.3);
 }
@@ -84,7 +84,7 @@ body {
   display: block;
   transform: translateX(20px);
   opacity: 1;
-  transition: all 1.5s ease-in;
+  transition: all 1s ease-in;
 }
 .text_cake {
   position: absolute;
@@ -135,4 +135,19 @@ body {
   background-color: aqua;
   color: rgba(41, 40, 40, 0.8);
   cursor: pointer;
+}
+
+.image:nth-child(1) {
+  position: absolute;
+  width: 120px;
+  z-index: 20;
+  top: 20%;
+  left: 20%;
+}
+.image:nth-child(2) {
+  position: absolute;
+  width: 120px;
+  z-index: 20;
+  top: 20%;
+  right: 20%;
 }
